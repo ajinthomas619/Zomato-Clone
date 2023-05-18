@@ -1,0 +1,165 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-img{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-image:url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100vw;
+    height: 60px;
+}
+.nav-menu{
+    width: 60vw;
+    height: 60px;
+}
+.zomato{
+    display: block;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.header-flex{
+    margin-top: 100px;
+}
+.nav-link{
+    border-bottom: 0px solid black ;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+}
+.nav-link:hover{
+    border-bottom: 5px solid white;
+}
+.search-box{
+    width: 30vw;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.search-btn{
+    width: 130px;
+    height: 62px;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+#popular-locations{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.popular-heading{
+    font-size:40px
+}
+.rows{
+    display: flex;
+}
+.locations-div{
+    width: 90%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+.locations-div:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+#get-zomato-app{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#Email{
+    display: flexbox;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+#Phone{
+    display: flexbox;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.email-box{
+    width: 15vw;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.link-btn{
+    width: 130px;
+    height: 62px;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.mail-box{
+    padding: 20px;
+    margin-top: 20px;
+}
+.mail-box .email-box{
+    background-color: black;
+}
+.app-img{
+    width: 50%;
+    object-fit: cover;
+    margin-left: 30%;
+}
+.accordion{
+    margin-bottom: 30px;
+}
+.zom{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.footer{
+    display: flex;
+    color: white;
+    background-color: black;
+}
